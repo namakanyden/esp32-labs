@@ -90,6 +90,8 @@ while True:
 1. Vytvorte funkciu `blink()`, ktorá na dobu _2_ sekundy _LED_ diódu rozsvieti a následne ju zhasne.
 2. Vytvorte triedu `LED`, ktorá bude potomkom triedy `Pin` a bude obsahovať aj metódu `blink()`.
 3. Ku _LED_ dióde pripojte tlačidlo, ktorým po stlačení diódu zasvietite a po následnom stlačení diódu zhasnete.
+4. Pripojte k _LED_ dióde druhú diódu a vytvorte blikač, kedy keď jedna dióda nesvieti, bude svietiť druhá a naopak.
+5. Miesto použitia funkcie `sleep()` mikrokontrolér uspite a na jeho zobudenie využite časovač.
 
 ## Ďalšie zdroje
 
