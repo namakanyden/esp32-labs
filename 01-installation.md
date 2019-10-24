@@ -41,10 +41,12 @@ pip3 install esptool
 * vypečte firmvér pomocou
 
   ```bash
-  esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20190125-v1.10.bin
+  esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash \
+      -z 0x1000 esp32-20190125-v1.10.bin
   ```
 
-* po úspešnom nahratí firmvéru sa mikrokontrolér  _ESP32_ reštartne
+
+Po úspešnom nahratí firmvéru sa mikrokontrolér  _ESP32_ reštartuje.
 
 
 ## Editor Mu
@@ -63,12 +65,6 @@ pip3 install esptool
 
 * používatelia windowsu si musia stiahnuť ovládač pre _CP210x USB to UART Bridge_
   * [download drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-
-
-## Links
-
-* [ESP32 DevKit ESP32-WROOM GPIO Pinout](https://circuits4you.com/2018/12/31/esp32-devkit-esp32-wroom-gpio-pinout/)
-* [ESP32 Datasheet](files/esp32-wroom-32_datasheet_en.pdf)
 
 ## Ďalšie zdroje
 
