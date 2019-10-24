@@ -13,3 +13,4 @@ hands on labs for esp32 microcontroller as promo for conferences
 10. Jednosmerný motor, krokový motor, servo motor, H-mostík
 11. BLE
 12. NTP
+13. súborový systém
