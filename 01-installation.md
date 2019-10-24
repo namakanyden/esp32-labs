@@ -38,13 +38,13 @@ pip3 install esptool
   esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
   ```
 
-* vypečte firmvér pomocou
 
-  ```bash
-  esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash \
-      -z 0x1000 esp32-20190125-v1.10.bin
-  ```
+Firmvér nahráte do mikrokontroléra z príkazového riadku pomocou nástroja `esptool` nasledovne:
 
+```bash
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash \
+    -z 0x1000 esp32-20190125-v1.10.bin
+```
 
 Po úspešnom nahratí firmvéru sa mikrokontrolér  _ESP32_ reštartuje.
 
