@@ -7,6 +7,12 @@ authors:
 
 ## LED dióda
 
+Mikrokontrolér _ESP32_ má spolu _38_ pinov, z čoho GPIO piny sú piny _0-19_, _21-23_, _25-27_ a _32-39_. Niektoré piny však majú obmedzenia:
+
+- piny *1* a *3* sú pre *REPL UART TX* a *RX*
+- piny *6*, *7*, *8*, *11*, *16*, a *17* sa používajú pre pripojenie zabudovanej *flash* a neodporúčajú sa pre iné použitie
+- piny *34-39* sú len vstupné a nemajú interné *pull-up* rezistory
+
 * digitálny výstup
 * zapojenie anódy a katódy
 * predradný odpor
