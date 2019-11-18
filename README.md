@@ -6,11 +6,12 @@ hands on labs for esp32 microcontroller as promo for conferences
 3. [Blink](03-blink.md)
 4. [Meranie teploty a vlhkosti so senzorom DHT11/22](04-dht22.md)
 5. [Meranie teploty so senzorom DS1820](05-ds18b20.md)
-6. Tlačidlo
-7. Reproduktor
-8. MQTT a dashboardy
-9. Prerušenia a časovače
-10. Jednosmerný motor, krokový motor, servo motor, H-mostík
-11. BLE
-12. NTP
-13. súborový systém
+6. [Meranie teploty s analógovým senzorom DS1820](06-tmp36.md)
+7. Tlačidlo
+8. Reproduktor
+9. MQTT a dashboardy
+10. Prerušenia a časovače
+11. Jednosmerný motor, krokový motor, servo motor, H-mostík
+12. BLE
+13. NTP
+14. súborový systém
