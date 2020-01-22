@@ -12,27 +12,27 @@ authors:
 
 ## I2C Module
 
-Display je možné osadiť aj _I2C_ modulom, vďaka čomu miesto _16_ pinov budete môcť použiť len _4_. Tento modul je osadený aj potenciometrom, ktorým môžete regulovať kontrast na display-i:
+Displej je možné osadiť aj _I2C_ modulom, vďaka čomu miesto _16_ pinov budete môcť použiť len _4_. Tento modul je osadený aj potenciometrom, ktorým môžete regulovať kontrast na displeji:
 
 ![Nastavovanie kontrastu](images/lcd.1602.adjust.pot.jpg)
 
 
 ## Schéma zapojenia
 
-Pre tento lab je použitý display _LCD 1602_ s _I2C_ modulom. Tým miesto _16_ pinov bude stačiť použiť len _4_.
+Pre tento lab je použitý displej _LCD 1602_ s _I2C_ modulom. Tým miesto _16_ pinov bude stačiť použiť len _4_.
 
 ![Schematic](images/lcd.1602.png)
 
 ## Bootstrap
 
-Ešte predtým, ako sa pustíme do práce, si stiahneme potrebné súbory z knižnice _LCD API_, vďaka čomu sa práca s display-om značne zjednoduší.
+Ešte predtým, ako sa pustíme do práce, si stiahneme potrebné súbory z knižnice _LCD API_, vďaka čomu sa práca s displejom značne zjednoduší.
 
 Zo [stránky projektu](https://github.com/dhylands/python_lcd) na serveri [GitHub](https://github.com) stiahnite a následne do mikrokontroléra _ESP32_ nahrajte tieto súbory:
 
 * [`esp8266_i2c_lcd.py`](https://github.com/dhylands/python_lcd/blob/master/lcd/esp8266_i2c_lcd.py)
 * [`lcd_api.py`](https://github.com/dhylands/python_lcd/blob/master/lcd/lcd_api.py)
 
-Následne môžeme vyskúšať funkcionalitu pomocou dema, ktoré sa nachádza v súbore [esp8266_i2c_lcd_test.py](https://github.com/dhylands/python_lcd/blob/master/lcd/esp8266_i2c_lcd_test.py). Pokiaľ na display-i nič nevidíte, skúste potočiť potenciometrom na jednu alebo druhú stranu.
+Následne môžeme vyskúšať funkcionalitu pomocou dema, ktoré sa nachádza v súbore [esp8266_i2c_lcd_test.py](https://github.com/dhylands/python_lcd/blob/master/lcd/esp8266_i2c_lcd_test.py). Pokiaľ na displeji nič nevidíte, skúste potočiť potenciometrom na jednu alebo druhú stranu.
 
 ## REPL
 
