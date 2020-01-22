@@ -157,6 +157,7 @@ lcd.putstr('Hello world!')
 3. Využite modul `RTC` tak, aby ste displej premenili na hodiny (reálneho) času:
    * s blikajúcou dvojbodkou v sekundovom intervale, ak budete vypisovať len hodiny a minúty v tvare `HH:MM`
    * bez blikajúcej dvojbodky, ak budete vypisovať aj sekundy v tvare `HH:MM:SS`
+4. Pripojte k mikrokontroléru _ESP32_ niektorý zo senzorov a jeho získanú hodnotu zobrazte na displeji.
 
 
 ## Ďalšie zdroje
