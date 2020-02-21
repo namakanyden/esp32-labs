@@ -62,7 +62,7 @@ Výsledkom volania metódy je zoznam s adresami pripojených zariadení. Keďže
 Keď je všetko v poriadku, môžeme z nahratého modulu importovať triedu `I2cLcd` pre prácu s displejom:
 
 ```python
->>> rom esp8266_i2c_lcd import I2cLcd
+>>> from esp8266_i2c_lcd import I2cLcd
 ```
 
 Následne vytvoríme objekt displeja, ktorému odovzdáme niekoľko parametrov:
