@@ -21,7 +21,7 @@ Displej je možné osadiť aj _I2C_ modulom, vďaka čomu miesto _16_ pinov bude
 
 Pre tento lab je použitý displej _LCD 1602_ s _I2C_ modulom. Tým miesto _16_ pinov bude stačiť použiť len _4_.
 
-![Schematic](images/lcd.1602.png)
+![Schematic](images/esp32.with.lcd1602.png)
 
 ## Bootstrap
 
