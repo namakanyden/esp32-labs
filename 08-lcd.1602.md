@@ -21,6 +21,8 @@ Displej je možné osadiť aj _I2C_ modulom, vďaka čomu miesto _16_ pinov bude
 
 Pre tento lab je použitý displej _LCD 1602_ s _I2C_ modulom. Tým miesto _16_ pinov bude stačiť použiť len _4_.
 
+**Pozor:** Pri použití zbernice _I2C_ sa odporúča ku pinom `SCL` a `SDA` zapojiť _Pull-Up_ rezistory o hodnote _4k7_. Vnútorné _Pull-Up_ rezistory sú totiž veľmi malé. Môže sa stať, že zbernica aj s pripojeným zariadením budú fungovať aj bez týchto rezistorov, ale ak napr. pripojíte väčší displej (napr. _20x04_), _I2C_ zbernica ho ani nerozpozná. Taktiež, ak budete mať problém s jasom, môžete displej pripojiť ku _5V_.
+
 ![Schematic](images/esp32.with.lcd1602.png)
 
 ## Bootstrap
