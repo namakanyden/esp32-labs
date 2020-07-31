@@ -67,6 +67,7 @@ from machine import Pin
 from time import sleep
 
 sensor = Pin(13, Pin.IN)
+
 while True:
     value = sensor.value()
     print(value)
