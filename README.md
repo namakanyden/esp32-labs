@@ -7,6 +7,7 @@ hands on labs for esp32 microcontroller as promo for conferences
 3. Digitálne vstupy a výstupy
 	* [Blink](03-blink.md)
 	* Tlačidlo
+	* [Detekcia pohybu](07-pir.md)
 4. Meranie teploty
 	* [Meranie teploty a vlhkosti so senzorom DHT11/22](04-dht22.md)
 	* [Meranie teploty so senzorom DS1820](05-ds18b20.md)
