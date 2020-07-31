@@ -35,7 +35,7 @@ Napájanie PIR senzora je pripojené priamo na _5V_. Dátový signál je pripoje
 Začneme tým, že z balíka `machine` importujeme triedu `Pin`:
 
 ```python
->>> from machine import Pin, ADC
+>>> from machine import Pin
 ```
 
 Dátový pin z PIR senzora je na GPIO pin _13_ mikrokontroléra _ESP32_. Nasledovným príkazom vytvoríme objekt triedy `Pin`, z ktorého budeme čítať výstup z PIR senzora:
